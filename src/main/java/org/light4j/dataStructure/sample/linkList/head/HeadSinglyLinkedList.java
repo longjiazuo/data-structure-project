@@ -172,5 +172,5 @@ public class HeadSinglyLinkedList<E> implements LList<E> {
 		System.out.println(list.toString());
 		list.remove(0);
 		System.out.println(list.toString());
-	}
+	} 
 }
