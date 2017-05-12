@@ -164,7 +164,7 @@ public class HeadSinglyLinkedList<E> implements LList<E> {
 			list.add(0, new String((char) ('A' + i) + ""));
 		}
 		System.out.println(list.toString());
-		list.remove(1);
+		list.remove(0);
 		System.out.println(list.toString());
 	}
 }
