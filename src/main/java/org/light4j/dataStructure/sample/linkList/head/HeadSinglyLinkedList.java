@@ -73,6 +73,9 @@ public class HeadSinglyLinkedList<E> implements LList<E> {
 		return null;// 操作失败则返回null
 	}
 
+	/**
+	 * 在指定位置插入非空的指针对象
+	 */
 	@Override
 	public boolean add(int index, E element) {
 		if (element == null) {// 不允许插入非空元素
@@ -97,6 +100,9 @@ public class HeadSinglyLinkedList<E> implements LList<E> {
 		return false;
 	}
 
+	/**
+	 * 在单链表的最后插入元素对象,时间复杂度是O(1)
+	 */
 	@Override
 	public boolean add(E element) {
 		if (element == null) {// 不允许插入非空元素
@@ -164,7 +170,7 @@ public class HeadSinglyLinkedList<E> implements LList<E> {
 			list.add(0, new String((char) ('A' + i) + ""));
 		}
 		System.out.println(list.toString());
-		list.remove(1);
+		list.remove(0);
 		System.out.println(list.toString());
 	}
 }
