@@ -2,7 +2,6 @@ package org.light4j.dataStructure.sample.linearList.linkList.head;
 
 import org.light4j.dataStructure.sample.linearList.LList;
 import org.light4j.dataStructure.sample.linearList.linkList.Node;
-
 /**
  * 带头结点的单链表类
  * 
