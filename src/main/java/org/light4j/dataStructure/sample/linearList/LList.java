@@ -1,6 +1,11 @@
 package org.light4j.dataStructure.sample.linearList;
 
-public interface LList<E> { // 线性表接口
+/**
+ * 线性表接口
+ * 
+ * @author longjiazuo
+ */
+public interface LList<E> {
 	boolean isEmpty(); // 判断线性表是否为空，若为空则返回true
 
 	int length(); // 返回线性表长度
