@@ -1,4 +1,4 @@
-package org.light4j.dataStructure.sample.linkList;
+package org.light4j.dataStructure.sample.linearList.linkList;
 
 /**
  * 链表节点类

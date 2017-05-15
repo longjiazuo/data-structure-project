@@ -1,7 +1,7 @@
-package org.light4j.dataStructure.sample.linkList.head.sorted;
+package org.light4j.dataStructure.sample.linearList.linkList.head.sorted;
 
-import org.light4j.dataStructure.sample.linkList.Node;
-import org.light4j.dataStructure.sample.linkList.head.HeadSinglyLinkedList;
+import org.light4j.dataStructure.sample.linearList.linkList.Node;
+import org.light4j.dataStructure.sample.linearList.linkList.head.HeadSinglyLinkedList;
 
 /**
  * 排序的单链表

@@ -1,7 +1,7 @@
-package org.light4j.dataStructure.sample.linkList.reverse;
+package org.light4j.dataStructure.sample.linearList.linkList.reverse;
 
-import org.light4j.dataStructure.sample.linkList.Node;
-import org.light4j.dataStructure.sample.linkList.SinglyLinkedList;
+import org.light4j.dataStructure.sample.linearList.linkList.Node;
+import org.light4j.dataStructure.sample.linearList.linkList.SinglyLinkedList;
 
 /**
  * 可逆转的单链表,继承自SinglyLinkedList
