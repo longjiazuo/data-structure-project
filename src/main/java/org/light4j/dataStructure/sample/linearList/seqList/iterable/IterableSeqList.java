@@ -2,7 +2,7 @@ package org.light4j.dataStructure.sample.linearList.seqList.iterable;
 
 import java.util.Iterator;
 
-import org.light4j.dataStructure.sample.linearList.AbstractList;
+import org.light4j.dataStructure.sample.linearList.AbstractLList;
 import org.light4j.dataStructure.sample.linearList.LList;
 
 /**
@@ -10,7 +10,7 @@ import org.light4j.dataStructure.sample.linearList.LList;
  * 
  * @author longjiazuo
  */
-public class IterableSeqList<E> extends AbstractList<E> implements LList<E> { // 顺序表类，实现线性表接口
+public class IterableSeqList<E> extends AbstractLList<E> implements LList<E> { // 顺序表类，实现线性表接口
 	private Object[] table; // 对象数组，私有成员
 	private int n; // 顺序表长度
 

@@ -2,7 +2,7 @@ package org.light4j.dataStructure.sample.linearList.linkList.iterable;
 
 import java.util.Iterator;
 
-import org.light4j.dataStructure.sample.linearList.AbstractList;
+import org.light4j.dataStructure.sample.linearList.AbstractLList;
 import org.light4j.dataStructure.sample.linearList.LList;
 import org.light4j.dataStructure.sample.linearList.linkList.Node;
 /**
@@ -10,7 +10,7 @@ import org.light4j.dataStructure.sample.linearList.linkList.Node;
  * 
  * @author longjiazuo
  */
-public class IterableHeadSinglyLinkedList<E> extends AbstractList<E> implements LList<E> {
+public class IterableHeadSinglyLinkedList<E> extends AbstractLList<E> implements LList<E> {
 	protected Node<E> head;// 单链表的头结点,指向单链表的头结点
 	protected Node<E> rear;// 单链表的尾结点,指向单链表的最后一个结点
 	protected int n;// 单链表的长度

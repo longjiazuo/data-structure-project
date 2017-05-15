@@ -7,7 +7,7 @@ import java.util.Iterator;
  * 
  * @author longjiazuo
  */
-public abstract class AbstractList<E> implements Iterable<E> {
+public abstract class AbstractLList<E> implements Iterable<E> {
 
 	/**
 	 * 获得迭代器对象,抽象方法,由子类进行实现
