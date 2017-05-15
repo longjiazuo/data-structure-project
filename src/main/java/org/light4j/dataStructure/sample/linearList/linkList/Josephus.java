@@ -1,4 +1,6 @@
-package org.light4j.dataStructure.sample.linearList;
+package org.light4j.dataStructure.sample.linearList.linkList;
+
+import org.light4j.dataStructure.sample.linearList.LList;
 
 public class Josephus {
 	private LList<String> seqList;
@@ -10,12 +12,12 @@ public class Josephus {
 			throw new RuntimeException("number或distance参数输入不合法");
 		}
 		this.distance=distance;
-		this.seqList = new SeqList<String>(number);// 顺序表元素类型是字符串,指定容量
+		this.seqList = new SinglyLinkedList<String>();// 单链表元素类型是字符串
 		for (int i = 0; i < number; i++) {
 			this.seqList.add((char) ('A' + i) + "");// 添加字符串对象
 		}
 		System.out.print("约瑟夫环(" + number + "," + distance + "), ");
-		System.out.println(this.seqList.toString());// 显示顺序表所有对象的字符串表示
+		System.out.println(this.seqList.toString());// 显示单链表所有对象的字符串表示
 	}
 
 	public void sentence(int start) {
