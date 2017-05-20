@@ -7,5 +7,6 @@
 	<packaging>pom</packaging>
   <modules>
     <module>linearList-interface</module>
+    <module>linearList-seqList</module>
   </modules>
 </project>
