@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dataStructure-learning</groupId>
 	<artifactId>dataStructure-learning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-  <modules>
-    <module>linearList-interface</module>
-    <module>linearList-seqList</module>
-    <module>linearList-seqList-josephus</module>
-    <module>linearList-linkList</module>
-    <module>linearList-linkList-josephus</module>
-    <module>linearList-linkList-reverse</module>
-    <module>linearList-linkList-head</module>
-    <module>linearList-linkList-doubleLink-cycle-head</module>
-    <module>linearList-linkList-doubleLink-head-cycle</module>
-    <module>linearList-linkList-head-iterable</module>
-    <module>linearList-seqList-iterator</module>
-    <module>linearList-linkList-head-sorted</module>
-  </modules>
+	<modules>
+		<module>linearList-interface</module>
+		<module>linearList-seqList</module>
+		<module>linearList-seqList-josephus</module>
+		<module>linearList-linkList</module>
+		<module>linearList-linkList-josephus</module>
+		<module>linearList-linkList-reverse</module>
+		<module>linearList-linkList-head</module>
+		<module>linearList-linkList-doubleLink-cycle-head</module>
+		<module>linearList-linkList-doubleLink-head-cycle</module>
+		<module>linearList-linkList-head-iterable</module>
+		<module>linearList-seqList-iterator</module>
+		<module>linearList-linkList-head-sorted</module>
+	</modules>
 </project>
