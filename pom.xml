@@ -13,5 +13,7 @@
     <module>linearList-linkList-josephus</module>
     <module>linearList-linkList-reverse</module>
     <module>linearList-linkList-head</module>
+    <module>linearList-linkList-doubleLink-cycle-head</module>
+    <module>linearList-linkList-doubleLink-head-cycle</module>
   </modules>
 </project>
