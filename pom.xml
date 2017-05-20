@@ -15,5 +15,6 @@
     <module>linearList-linkList-head</module>
     <module>linearList-linkList-doubleLink-cycle-head</module>
     <module>linearList-linkList-doubleLink-head-cycle</module>
+    <module>linearList-linkList-head-iterable</module>
   </modules>
 </project>
