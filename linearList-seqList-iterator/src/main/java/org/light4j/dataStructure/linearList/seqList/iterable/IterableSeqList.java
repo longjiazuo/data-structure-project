@@ -1,22 +1,30 @@
-package org.light4j.dataStructure.sample.linearList.seqList;
+package org.light4j.dataStructure.linearList.seqList.iterable;
 
-import org.light4j.dataStructure.sample.linearList.LList;
+import java.util.Iterator;
 
-public class SeqList<E> implements LList<E> { // 顺序表类，实现线性表接口
+import org.light4j.dataStructure.linearList.AbstractLList;
+import org.light4j.dataStructure.linearList.LList;
+
+/**
+ * 提供了迭代对象的线性表
+ * 
+ * @author longjiazuo
+ */
+public class IterableSeqList<E> extends AbstractLList<E> implements LList<E> { // 顺序表类，实现线性表接口
 	private Object[] table; // 对象数组，私有成员
 	private int n; // 顺序表长度
 
 	/**
 	 * 指定空表的默认容量
 	 */
-	public SeqList() {
+	public IterableSeqList() {
 		this(16);
 	}
 
 	/**
 	 * 构造方法，创建指定容量的空表 Math.abs(i)返回参数的绝对值
 	 */
-	public SeqList(int capacity) {
+	public IterableSeqList(int capacity) {
 		this.table = new Object[Math.abs(capacity)];
 		this.n = 0;
 	}
@@ -40,6 +48,7 @@ public class SeqList<E> implements LList<E> { // 顺序表类，实现线性表�
 	/**
 	 * 返回index(初始值為0)位置的对象，若序号无效，返回null
 	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public E get(int index) {
 		if (index >= 0 && index < this.n) {
@@ -54,6 +63,7 @@ public class SeqList<E> implements LList<E> { // 顺序表类，实现线性表�
 	@Override
 	public E set(int index, E element) {
 		if (index >= 0 && index < this.n && element != null) {
+			@SuppressWarnings("unchecked")
 			E old = (E) this.table[index];
 			this.table[index] = element;
 			return old;
@@ -106,6 +116,7 @@ public class SeqList<E> implements LList<E> { // 顺序表类，实现线性表�
 	@Override
 	public E remove(int index) {
 		if (this.n != 0 && index >= 0 && index < this.n) {
+			@SuppressWarnings("unchecked")
 			E old = (E) this.table[index];
 			for (int i = index; i < this.n - 1; i++) { // 元素前移，平均移动n/2
 				this.table[i] = this.table[i + 1];
@@ -131,17 +142,42 @@ public class SeqList<E> implements LList<E> { // 顺序表类，实现线性表�
 	}
 
 	/**
-	 * 重写toString()方法
+	 * 返回迭代对象
 	 */
 	@Override
-	public String toString() {
-		String str = "(";
-		if (this.n != 0) {
-			for (int i = 0; i < this.n - 1; i++) {
-				str += this.table[i].toString() + ",";
-			}
-			str += this.table[this.n - 1].toString();
+	public Iterator<E> iterator() {
+		return new SeqListIterator<E>();
+	}
+
+	@SuppressWarnings("hiding")
+	private class SeqListIterator<E> implements Iterator<E> {
+		int cursor = 0;
+
+		@Override
+		public boolean hasNext() {
+			return cursor != n;
 		}
-		return str + ")";
+
+		/**
+		 * 返回后继元素
+		 */
+		@Override
+		public E next() {
+			if (cursor != n) {
+				@SuppressWarnings("unchecked")
+				E next = (E) get(cursor);
+				cursor++;
+				return next;
+			}
+			return null;
+		}
+
+		/**
+		 * 移除元素
+		 */
+		@Override
+		public void remove() {
+			throw new UnsupportedOperationException();// 不支持该操作,抛出异常
+		}
 	}
 }
