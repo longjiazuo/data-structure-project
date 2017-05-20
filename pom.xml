@@ -11,5 +11,6 @@
     <module>linearList-seqList-josephus</module>
     <module>linearList-linkList</module>
     <module>linearList-linkList-josephus</module>
+    <module>linearList-linkList-reverse</module>
   </modules>
 </project>
