@@ -8,8 +8,8 @@
 		<artifactId>dataStructure-learning</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>linearList-linkList</artifactId>
-	<name>linearList-linkList</name>
+	<artifactId>linearList-linkList-josephus</artifactId>
+	<name>linearList-linkList-josephus</name>
 	<url>http://blog.longjiazuo.com/</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
