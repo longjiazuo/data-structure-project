@@ -1,21 +1,18 @@
-package org.light4j.dataStructure.sample.linearList.linkList.iterable;
+package org.light4j.dataStructure.linearList.linkList.head;
 
-import java.util.Iterator;
-
-import org.light4j.dataStructure.sample.linearList.AbstractLList;
-import org.light4j.dataStructure.sample.linearList.LList;
-import org.light4j.dataStructure.sample.linearList.linkList.Node;
+import org.light4j.dataStructure.linearList.LList;
+import org.light4j.dataStructure.linearList.linkList.Node;
 /**
- * 可迭代的带头结点的单链表类
+ * 带头结点的单链表类
  * 
  * @author longjiazuo
  */
-public class IterableHeadSinglyLinkedList<E> extends AbstractLList<E> implements LList<E> {
+public class HeadSinglyLinkedList<E> implements LList<E> {
 	protected Node<E> head;// 单链表的头结点,指向单链表的头结点
 	protected Node<E> rear;// 单链表的尾结点,指向单链表的最后一个结点
 	protected int n;// 单链表的长度
 
-	public IterableHeadSinglyLinkedList() {// 构造空单链表
+	public HeadSinglyLinkedList() {// 构造空单链表
 		this.head = new Node<E>(null);// 构造头结点,元素值为空
 		this.rear = this.head;// 构造尾结点,初始化的时候头结点和尾结点都指向头结点
 		this.n = 0;// 初始化链表长度为0
@@ -152,68 +149,17 @@ public class IterableHeadSinglyLinkedList<E> extends AbstractLList<E> implements
 		this.n = 0;
 	}
 
-	/**
-	 * 返回迭代器对象
-	 */
 	@Override
-	public Iterator<E> iterator() {
-		return new HeadSinglyLinkedListIterator<E>();
-	}
-
-	/**
-	 * 实现迭代器接口
-	 * 
-	 * @author longjiazuo
-	 */
-	@SuppressWarnings("hiding")
-	private class HeadSinglyLinkedListIterator<E> implements Iterator<E> {
-		@SuppressWarnings("unchecked")
-		private Node<E> cursor = (Node<E>) head;// 初始的时候指向头结点
-
-		/**
-		 * 判断是否有后继元素
-		 */
-		@Override
-		public boolean hasNext() {
-			return cursor != null && cursor.next != null;
-		}
-
-		/**
-		 * 返回后继元素
-		 */
-		@Override
-		public E next() {
-			if (cursor != null && cursor.next != null) {
-				E element = cursor.next.data;
-				cursor = cursor.next;
-				return element;
+	public String toString() {// 返回所有元素值对应的字符串
+		String str = "(";
+		Node<E> p = this.head.next;
+		while (p != null) {
+			str += p.data.toString();
+			p = p.next;
+			if (p != null) {
+				str += ", ";
 			}
-			return null;
 		}
-
-		/**
-		 * 移除元素
-		 */
-		@Override
-		public void remove() {
-			throw new UnsupportedOperationException();// 不支持该操作,抛出异常
-		}
-	}
-	
-	/**
-	 * 测试
-	 * 
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		IterableHeadSinglyLinkedList<String> list = new IterableHeadSinglyLinkedList<String>();
-		list.add("A");
-		list.add("B");
-		list.add("C");
-		list.add("D");
-		Iterator<String> it = list.iterator();
-		while (it.hasNext()) {
-			System.out.println(it.next());
-		}
+		return str + ")";
 	}
 }
