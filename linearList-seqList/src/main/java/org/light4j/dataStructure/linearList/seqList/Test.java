@@ -1,4 +1,6 @@
-package org.light4j.dataStructure.linearList;
+package org.light4j.dataStructure.linearList.seqList;
+
+import org.light4j.dataStructure.linearList.LList;
 
 public class Test {
 	public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package org.light4j.dataStructure.linearList;
+package org.light4j.dataStructure.linearList.seqList;
+
+import org.light4j.dataStructure.linearList.LList;
 
 public class SeqList<E> implements LList<E> { // 顺序表类，实现线性表接口
 	private Object[] table; // 对象数组，私有成员
