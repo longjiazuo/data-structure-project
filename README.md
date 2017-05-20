@@ -1,5 +1,5 @@
 # dataStructure-learning
-自己实现集合框架系列整理总结样例,在每篇文章后面有对应源代码地址链接。(不断更新中...)<br>
+自己实现集合框架系列整理总结样例,在每篇文章后面有对应源代码地址链接。(不断更新中....)<br>
 
 #### 自己实现集合框架系列教程<br>
 项目地址：<a href="https://github.com/longjiazuo/dataStructure-learning" target="_blank">https://github.com/longjiazuo/dataStructure-learning <br>
