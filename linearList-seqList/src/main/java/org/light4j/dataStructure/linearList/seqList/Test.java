@@ -11,7 +11,7 @@ public class Test {
 		defalutValueList.add("B");
 		defalutValueList.add("C");
 		// 输出元素个数
-		System.out.println(defalutValueList.length());
+		System.out.println("defalutValueList线性表元素个数："+defalutValueList.length());
 		// 初始化容量值为10的SeqList
 		LList<String> specifiedValueList = new SeqList<String>(10);
 		// 添加D,E,F,G四个元素
@@ -20,6 +20,6 @@ public class Test {
 		specifiedValueList.add("F");
 		specifiedValueList.add("G");
 		// 输出元素个数
-		System.out.println(specifiedValueList.length());
+		System.out.println("specifiedValueList线性表元素个数："+specifiedValueList.length());
 	}
 }

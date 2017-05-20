@@ -9,5 +9,6 @@
     <module>linearList-interface</module>
     <module>linearList-seqList</module>
     <module>linearList-seqList-josephus</module>
+    <module>linearList-linkList</module>
   </modules>
 </project>
