@@ -39,7 +39,3 @@ Github项目地址：<a href="https://github.com/longjiazuo/dataStructure-learni
 ### 附录:
 更多内容请阅读我的博客：
 <a href="http://blog.longjiazuo.com/" target="_blank">http://blog.longjiazuo.com/
-### 微信扫码关注我技术公众号：
-<center>
-![image](https://github.com/longjiazuo/dataStructure-learning/blob/master/longjiazuo.jpg?raw=true)
-</center>
