@@ -36,6 +36,11 @@ Github项目地址：<a href="https://github.com/longjiazuo/dataStructure-learni
 码云项目地址：<a href="http://git.oschina.net/longshiy/dataStructure-learning/tree/master/linearList-linkList-reverse" target="_blank">linearList-linkList-reverse</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/2960" target="_blank">自己实现集合框架(六):实现单链表逆转</a><br>
 
+#### 自己实现集合框架(七):带头结点单链表的实现
+Github项目地址：<a href="https://github.com/longjiazuo/dataStructure-learning/tree/master/linearList-linkList-circular" target="_blank">linearList-linkList-circular</a><br>
+码云项目地址：<a href="http://git.oschina.net/longshiy/dataStructure-learning/tree/master/linearList-linkList-circular" target="_blank">linearList-linkList-circular</a><br>
+文章地址：<a href="http://blog.longjiazuo.com/archives/3004" target="_blank">自己实现集合框架(七):带头结点单链表的实现</a><br>
+
 ### 附录:
 更多内容请阅读我的博客：
 <a href="http://blog.longjiazuo.com/" target="_blank">http://blog.longjiazuo.com/

@@ -1,26 +1,75 @@
-package org.light4j.dataStructure.linearList.linkList.circular;
+package org.light4j.dataStructure.linearList.linkList.head;
 
+import org.light4j.dataStructure.linearList.LList;
 import org.light4j.dataStructure.linearList.linkList.Node;
-import org.light4j.dataStructure.linearList.linkList.head.HeadSinglyLinkedList;
-
 /**
- * <p>
- * 循环单链表类,基本操作和带头结点的单链表类似, 只是在尾添加和尾移除元素的时候需要更改尾结点的next域指向head
- * </p>
+ * 带头结点的单链表类
  * 
  * @author longjiazuo
- * 
- * @param <E>
  */
-public class CircularSinglyLinkedList<E> extends HeadSinglyLinkedList<E> {
+public class HeadSinglyLinkedList<E> implements LList<E> {
+	protected Node<E> head;// 单链表的头结点,指向单链表的头结点
+	protected Node<E> rear;// 单链表的尾结点,指向单链表的最后一个结点
+	protected int n;// 单链表的长度
+
+	public HeadSinglyLinkedList() {// 构造空单链表
+		this.head = new Node<E>(null);// 构造头结点,元素值为空
+		this.rear = this.head;// 构造尾结点,初始化的时候头结点和尾结点都指向头结点
+		this.n = 0;// 初始化链表长度为0
+	}
+
 	/**
-	 * 构造空单链表
+	 * 判断带头结点的单链表是否为空
 	 */
-	public CircularSinglyLinkedList() {
-		this.head = new Node<E>(null);
-		this.rear = this.head;
-		this.head.next = this.head;
-		this.n = 0;
+	@Override
+	public boolean isEmpty() {
+		return this.head.next == null;
+	}
+
+	/**
+	 * 返回带头结点的单链表长度,时间复杂度为O(1)
+	 */
+	@Override
+	public int length() {
+		return this.n;
+	}
+
+	/**
+	 * 返回序号为index的的对象,如果链表为空或者序号错误则返回null
+	 */
+	@Override
+	public E get(int index) {
+		Node<E> p = this.head;
+		int i = 0;
+		while (p != null && i < index) {
+			i++;
+			p = p.next;
+		}
+		if (p != null) {
+			return p.data;
+		}
+		return null;
+	}
+
+	/**
+	 * 设置序号为index的对象的值为element,如果操作成功则返回原对象,操作失败返回null
+	 */
+	@Override
+	public E set(int index, E element) {
+		if (this.head != null && index >= 0 && element != null) {
+			Node<E> p = this.head;
+			int i = 0;
+			while (p != null && i < index) {
+				i++;
+				p = p.next;
+			}
+			if (p != null) {
+				E old = p.data;
+				p.data = element;
+				return old;// 操作成功返回原对象
+			}
+		}
+		return null;// 操作失败则返回null
 	}
 
 	/**
@@ -60,7 +109,6 @@ public class CircularSinglyLinkedList<E> extends HeadSinglyLinkedList<E> {
 		}
 		this.rear.next = new Node<E>(element);// 尾插入
 		this.rear = this.rear.next;// 移动尾指针
-		this.rear.next = this.head;//把尾结点的next域指向head结点
 		this.n++;// 链表长度增加
 		return true;
 	}
@@ -82,7 +130,6 @@ public class CircularSinglyLinkedList<E> extends HeadSinglyLinkedList<E> {
 				old = p.next.data;
 				if (p.next == this.rear) {// 如果p结点的后一个结点是尾结点,则移除之后尾结点指针前移
 					this.rear = p;
-					this.rear.next = this.head;
 				}
 				p.next = p.next.next;// 删除p结点的后继结点
 				this.n--;// 链表长度减少
@@ -92,17 +139,21 @@ public class CircularSinglyLinkedList<E> extends HeadSinglyLinkedList<E> {
 		return old;
 	}
 
+	/**
+	 * 清空单链表
+	 */
 	@Override
 	public void clear() {
-		this.head.next = this.head;
+		this.head.next = null;
+		this.rear = this.head;
 		this.n = 0;
 	}
-	
+
 	@Override
 	public String toString() {// 返回所有元素值对应的字符串
 		String str = "(";
 		Node<E> p = this.head.next;
-		while (p.data != null) {
+		while (p != null) {
 			str += p.data.toString();
 			p = p.next;
 			if (p != null) {
