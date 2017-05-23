@@ -20,5 +20,6 @@
 		<module>linearList-linkList-head-sorted</module>
     <module>linearList-linkList-increase</module>
     <module>linearList-linkList-circular</module>
+    <module>linearList-linkList-doubleLink</module>
   </modules>
 </project>

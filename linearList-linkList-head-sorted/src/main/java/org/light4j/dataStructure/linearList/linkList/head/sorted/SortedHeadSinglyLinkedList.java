@@ -4,7 +4,7 @@ import org.light4j.dataStructure.linearList.linkList.Node;
 import org.light4j.dataStructure.linearList.linkList.head.HeadSinglyLinkedList;
 
 /**
- * 排序的单链表
+ * 排序的单链表,继承至带头结点的单链表类HeadSinglyLinkedList
  * 
  * @author longjiazuo
  */
