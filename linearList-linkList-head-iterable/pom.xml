@@ -4,8 +4,8 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>dataStructure-learning</groupId>
-		<artifactId>dataStructure-learning</artifactId>
+		<groupId>org.light4j</groupId>
+		<artifactId>data-structure-project</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>linearList-linkList-head-iterable</artifactId>
