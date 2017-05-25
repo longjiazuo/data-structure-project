@@ -1,5 +1,5 @@
-# data-structure-project
-自己实现集合框架系列整理总结样例,在每篇文章后面有对应源代码地址链接。(不断更新中....)<br>
+# data-structure-project【持续更新中...】
+数据结构算法，自己实现集合框架系列整理总结样例,在每篇文章后面有对应源代码地址链接。<br>
 
 #### 自己实现集合框架系列教程<br>
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project" target="_blank">https://github.com/longjiazuo/data-structure-project <br>
