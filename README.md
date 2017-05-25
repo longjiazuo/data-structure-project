@@ -4,7 +4,7 @@
 #### 自己实现集合框架系列教程<br>
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project" target="_blank">https://github.com/longjiazuo/data-structure-project <br>
 码云项目地址：<a href="http://git.oschina.net/longshiy/data-structure-project" target="_blank">http://git.oschina.net/longshiy/data-structure-project <br>
-文章地址：<a href="http://blog.longjiazuo.com/archives/category/%E7%BB%BC%E5%90%88%E5%BA%94%E7%94%A8/shujujiegou" target="_blank">自己实现集合框架系列教程</a><br>
+文章地址：<a href="http://blog.longjiazuo.com/archives/category/comprehensive/shujujiegou" target="_blank">自己实现集合框架系列教程</a><br>
 
 #### 自己实现集合框架(一):定义线性表接口
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-interface" target="_blank">linearList-interface</a><br>
