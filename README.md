@@ -27,8 +27,8 @@ Github项目地址：<a href="https://github.com/longjiazuo/data-structure-proje
 文章地址：<a href="http://blog.longjiazuo.com/archives/2857" target="_blank">自己实现集合框架(四):单链表的实现</a><br>
 
 #### 自己实现集合框架(五):利用单链表解决约瑟夫环问题
-Github项目地址：<a href="https://github.com/longjiazuo/springMvc4.x-learning/tree/master/springMvc4.x-advice" target="_blank">springMvc4.x-advice</a><br>
-码云项目地址：<a href="http://git.oschina.net/longshiy/springMvc4.x-learning/tree/master/springMvc4.x-advice" target="_blank">springMvc4.x-advice</a><br>
+Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-linkList-josephus" target="_blank">linearList-linkList-josephus</a><br>
+码云项目地址：<a href="http://git.oschina.net/longshiy/data-structure-project/tree/master/linearList-linkList-josephus" target="_blank">linearList-linkList-josephus</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/2944" target="_blank">自己实现集合框架(五):利用单链表解决约瑟夫环问题</a><br>
 
 #### 自己实现集合框架(六):实现单链表逆转
@@ -37,9 +37,24 @@ Github项目地址：<a href="https://github.com/longjiazuo/data-structure-proje
 文章地址：<a href="http://blog.longjiazuo.com/archives/2960" target="_blank">自己实现集合框架(六):实现单链表逆转</a><br>
 
 #### 自己实现集合框架(七):带头结点单链表的实现
+Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-linkList-head" target="_blank">linearList-linkList-head</a><br>
+码云项目地址：<a href="http://git.oschina.net/longshiy/data-structure-project/tree/master/linearList-linkList-head" target="_blank">linearList-linkList-head</a><br>
+文章地址：<a href="http://blog.longjiazuo.com/archives/3004" target="_blank">自己实现集合框架(七):带头结点单链表的实现</a><br>
+
+#### 自己实现集合框架(八):可排序单链表的实现
+Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-linkList-head-sorted" target="_blank">linearList-linkList-head-sorted</a><br>
+码云项目地址：<a href="http://git.oschina.net/longshiy/data-structure-project/tree/master/linearList-linkList-head-sorted" target="_blank">linearList-linkList-head-sorted</a><br>
+文章地址：<a href="http://blog.longjiazuo.com/archives/3741" target="_blank">自己实现集合框架(八):可排序单链表的实现</a><br>
+
+#### 自己实现集合框架(九):循环单链表的实现
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-linkList-circular" target="_blank">linearList-linkList-circular</a><br>
 码云项目地址：<a href="http://git.oschina.net/longshiy/data-structure-project/tree/master/linearList-linkList-circular" target="_blank">linearList-linkList-circular</a><br>
-文章地址：<a href="http://blog.longjiazuo.com/archives/3004" target="_blank">自己实现集合框架(七):带头结点单链表的实现</a><br>
+文章地址：<a href="http://blog.longjiazuo.com/archives/3786" target="_blank">自己实现集合框架(九):循环单链表的实现</a><br>
+
+#### 自己实现集合框架(十):双链表的实现
+Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-linkList-doubleLink" target="_blank">linearList-linkList-doubleLink</a><br>
+码云项目地址：<a href="http://git.oschina.net/longshiy/data-structure-project/tree/master/linearList-linkList-doubleLink" target="_blank">linearList-linkList-doubleLink</a><br>
+文章地址：<a href="http://blog.longjiazuo.com/archives/3811" target="_blank">自己实现集合框架(十):双链表的实现</a><br>
 
 ### 附录:
 更多内容请阅读我的博客：

@@ -22,5 +22,7 @@
 		<module>linearList-linkList-increase</module>
 		<module>linearList-linkList-circular</module>
 		<module>linearList-linkList-doubleLink</module>
+		<module>linearList-stack-interface</module>
+		<module>linearList-stack-seqStack</module>
 	</modules>
 </project>
