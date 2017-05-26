@@ -10,7 +10,7 @@ public class SeqStack<E> implements SStack<E> {
 		this(16);// 初始化栈的容量为16
 	}
 
-	public SeqStack(int capacity) {
+	public SeqStack(int capacity) {// 构造指定容量的空栈
 		this.value = new Object[Math.abs(capacity)];
 		this.top = -1;// 栈顶下标初始化为-1
 	}
@@ -25,6 +25,9 @@ public class SeqStack<E> implements SStack<E> {
 		return this.top == -1;
 	}
 
+	/**
+	 * 元素入栈，成为新的栈顶元素，若操作成功返回true
+	 */
 	@Override
 	public boolean push(E element) {
 		if (element == null) {// 元素不允许为空
@@ -42,6 +45,9 @@ public class SeqStack<E> implements SStack<E> {
 		return true;
 	}
 
+	/**
+	 * 元素出栈，返回当前栈顶元素，栈顶元素改变，若栈为空则返回null
+	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	public E pop() {
@@ -51,6 +57,9 @@ public class SeqStack<E> implements SStack<E> {
 		return (E) this.value[top--];// 取出栈顶元素,栈顶元素改变,top减1
 	}
 
+	/**
+	 * 取栈顶元素值，元素未出栈，栈顶元素未改变
+	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	public E get() {// 如果是空栈则返回null
