@@ -1,6 +1,6 @@
-package org.light4j.dataStructure.stack.seqStack;
+package org.light4j.dataStructure.linearList.stack.seqStack;
 
-import org.light4j.dataStructure.stack.SStack;
+import org.light4j.dataStructure.linearList.stack.SStack;
 
 public class SeqStack<E> implements SStack<E> {
 	private Object[] value;// 储存栈的数据元素的数组
@@ -69,15 +69,20 @@ public class SeqStack<E> implements SStack<E> {
 		return (E) this.value[top];// 返回栈顶元素，栈顶元素未改变,top不变
 	}
 
+	/**
+	 * 返回栈中各元素的字符串表示
+	 */
 	@Override
 	public String toString() {
 		String str = "(";
-		for (int i = 0; i < this.value.length; i++) {
-			if (i == top) {// 栈顶元素
-				str += this.value[i];
-				break;// 遍历完栈顶元素跳出循环
-			} else {
-				str += this.value[i] + ",";
+		for (int i = top; i >= 0; i--) {// 从栈顶开始遍历
+			if (this.value[i] != null) {
+				if (i == 0) {// i为0则是栈底元素
+					str += this.value[i];
+					// break;// 遍历完栈顶元素跳出循环
+				} else {
+					str += this.value[i] + ",";
+				}
 			}
 		}
 		return str + ")";

@@ -1,4 +1,4 @@
-package org.light4j.dataStructure.stack;
+package org.light4j.dataStructure.linearList.stack;
 
 /**
  * 栈接口
