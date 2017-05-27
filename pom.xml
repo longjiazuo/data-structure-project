@@ -24,5 +24,6 @@
 		<module>linearList-stack-interface</module>
 		<module>linearList-stack-seqStack</module>
     <module>linearList-stack-linkStack</module>
+    <module>linearList-queue-interface</module>
   </modules>
 </project>
