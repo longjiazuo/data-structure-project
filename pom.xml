@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.light4j</groupId>
 	<artifactId>data-structure-project</artifactId>
@@ -22,9 +23,10 @@
 		<module>linearList-linkList-circular</module>
 		<module>linearList-linkList-doubleLink</module>
 		<module>linearList-stack-interface</module>
-		<module>linearList-stack-seqStack</module>
-    <module>linearList-stack-linkStack</module>
-    <module>linearList-queue-interface</module>
-    <module>linearList-queue-seqQueue</module>
-  </modules>
+		<module>linearList-stack-sequence</module>
+		<module>linearList-stack-link</module>
+		<module>linearList-queue-interface</module>
+		<module>linearList-queue-sequence</module>
+		<module>linearList-queue-sequence-cycle</module>
+	</modules>
 </project>

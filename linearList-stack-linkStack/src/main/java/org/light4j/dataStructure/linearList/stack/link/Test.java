@@ -1,4 +1,4 @@
-package org.light4j.dataStructure.linearList.stack.linkStack;
+package org.light4j.dataStructure.linearList.stack.link;
 
 import org.light4j.dataStructure.linearList.stack.SStack;
 

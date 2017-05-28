@@ -8,8 +8,8 @@
 		<artifactId>data-structure-project</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>linearList-stack-seqStack</artifactId>
-	<name>linearList-stack-seqStack</name>
+	<artifactId>linearList-stack-sequence</artifactId>
+	<name>linearList-stack-sequence</name>
 	<url>http://blog.longjiazuo.com</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

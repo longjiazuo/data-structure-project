@@ -1,4 +1,4 @@
-package org.light4j.dataStructure.linearList.queue.seqQueue;
+package org.light4j.dataStructure.linearList.queue.sequence;
 
 import org.light4j.dataStructure.linearList.queue.QQueue;
 
@@ -74,7 +74,7 @@ public class SeqQueue<E> implements QQueue<E> {
 		}
 		@SuppressWarnings("unchecked")
 		E temp = (E) this.value[this.front];
-		this.value[this.front++] = null;
+		this.front++;
 		return temp;
 	}
 
