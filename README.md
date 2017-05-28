@@ -69,7 +69,7 @@ Github项目地址：<a href="https://github.com/longjiazuo/data-structure-proje
 #### 自己实现集合框架(十三):链式栈的实现
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-link" target="_blank">linearList-stack-link</a><br>
 码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-link" target="_blank">linearList-stack-link</a><br>
-文章地址：<a href="http://blog.longjiazuo.com/archives/4094" target="_blank">自己实现集合框架(十三):链式栈的实现</a><br>
+文章地址：<a href="http://blog.longjiazuo.com/archives/4094" target="_blank">自己实现集合框架(十三):链式栈的实现</a> <br>
 
 ### 附录:
 更多内容请阅读我的博客：
