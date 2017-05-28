@@ -28,5 +28,6 @@
 		<module>linearList-queue-interface</module>
 		<module>linearList-queue-sequence</module>
 		<module>linearList-queue-sequence-cycle</module>
+		<module>?</module>
 	</modules>
 </project>
