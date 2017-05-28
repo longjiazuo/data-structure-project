@@ -20,7 +20,7 @@ public class SeqCycleQueue<E> implements QQueue<E> {
 	}
 
 	public SeqCycleQueue() {// 构造默认空循环队列
-		this(2);
+		this(16);
 	}
 
 	/**
