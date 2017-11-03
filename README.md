@@ -58,37 +58,37 @@ Github项目地址：<a href="https://github.com/longjiazuo/data-structure-proje
 
 #### 自己实现集合框架(十一):栈接口定义
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-interface" target="_blank">linearList-stack-interface</a><br>
-码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-interface" target="_blank">linearList-stack-interface</a><br>
+码云项目地址：<a href="https://git.oschina.net/longjiazuo/data-structure-project/tree/master/linearList-stack-interface" target="_blank">linearList-stack-interface</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/4011" target="_blank">自己实现集合框架(十一):栈接口定义</a><br>
 
 #### 自己实现集合框架(十二):顺序栈的实现
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-sequence" target="_blank">linearList-stack-sequence</a><br>
-码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-sequence" target="_blank">linearList-stack-sequence</a><br>
+码云项目地址：<a href="https://git.oschina.net/longjiazuo/data-structure-project/tree/master/linearList-stack-sequence" target="_blank">linearList-stack-sequence</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/4018" target="_blank">自己实现集合框架(十二):顺序栈的实现</a><br>
 
 #### 自己实现集合框架(十三):链式栈的实现
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-link" target="_blank">linearList-stack-link</a><br>
-码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-stack-link" target="_blank">linearList-stack-link</a><br>
+码云项目地址：<a href="https://git.oschina.net/longjiazuo/data-structure-project/tree/master/linearList-stack-link" target="_blank">linearList-stack-link</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/4094" target="_blank">自己实现集合框架(十三):链式栈的实现</a><br>
 
 #### 自己实现集合框架(十四):队列接口
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-interface" target="_blank">linearList-queue-interface</a><br>
-码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-interface" target="_blank">linearList-queue-interface</a><br>
+码云项目地址：<a href="https://git.oschina.net/longjiazuo/data-structure-project/tree/master/linearList-queue-interface" target="_blank">linearList-queue-interface</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/4177" target="_blank">自己实现集合框架(十四):队列接口</a><br>
 
 #### 自己实现集合框架(十五):顺序队列的实现
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-sequence" target="_blank">linearList-queue-sequence</a><br>
-码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-sequence" target="_blank">linearList-queue-sequence</a><br>
+码云项目地址：<a href="https://git.oschina.net/longjiazuo/data-structure-project/tree/master/linearList-queue-sequence" target="_blank">linearList-queue-sequence</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/4203" target="_blank">自己实现集合框架(十五):顺序队列的实现</a><br>
 
 #### 自己实现集合框架(十六):顺序循环队列的实现
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-sequence-cycle" target="_blank">linearList-queue-sequence-cycle</a><br>
-码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-sequence-cycle" target="_blank">linearList-queue-sequence-cycle</a><br>
+码云项目地址：<a href="https://git.oschina.net/longjiazuo/data-structure-project/tree/master/linearList-queue-sequence-cycle" target="_blank">linearList-queue-sequence-cycle</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/4235" target="_blank">自己实现集合框架(十六):顺序循环队列的实现</a><br>
 
 #### 自己实现集合框架(十七):链式队列的实现
 Github项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-link" target="_blank">linearList-queue-link</a><br>
-码云项目地址：<a href="https://github.com/longjiazuo/data-structure-project/tree/master/linearList-queue-link" target="_blank">linearList-queue-link</a><br>
+码云项目地址：<a href="https://git.oschina.net/longjiazuo/data-structure-project/tree/master/linearList-queue-link" target="_blank">linearList-queue-link</a><br>
 文章地址：<a href="http://blog.longjiazuo.com/archives/4271" target="_blank">自己实现集合框架(十七):链式队列的实现</a><br>
 
 ### 附录:
